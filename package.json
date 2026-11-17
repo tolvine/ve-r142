@@ -1,0 +1,11 @@
+{
+  "name": "statusboard",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/smoke.mjs",
+    "postinstall": "node scripts/setup.mjs"
+  }
+}
